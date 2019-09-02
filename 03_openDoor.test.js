@@ -1,4 +1,4 @@
-const openDoor = require("./03_openDoor").openDoor
+import { openDoor } from "./03_openDoor";
 
 function makeItem(name, hasCoffee) {
     item = new Object()
