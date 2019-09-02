@@ -19,4 +19,3 @@
 * 01_jsIntro
 * 02_largestNumber
 * 03_openDoor
-* 04_objects
