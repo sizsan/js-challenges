@@ -28,6 +28,7 @@ function openDoor(input) {
 	}
 	return false;
 }
-export default {
+
+module.exports = {
 	openDoor
 }
