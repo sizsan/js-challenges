@@ -20,3 +20,7 @@
 * 02_largestNumber
 * 03_openDoor
 * 04_objects
+<<<<<<< HEAD
+=======
+* 05_sumNumbers
+>>>>>>> c0c018b6e31ca3797cb8395a6d74fa66e225964a
