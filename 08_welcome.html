@@ -19,24 +19,34 @@
     <style>
     body {
       text-align: center;
+      background-color: chartreuse;
+      display: flex;
+      flex-direction: column;
+    }
+    p{
+      padding: 10vh;
     }
     </style>
   </head>
 
   <body>
 
-    <p><input type="text" placeholder="Enter your name"></p>
+    <p><input id="firstName" class="name" type="text" placeholder="Enter your first name">
+       <input id="lastName" class="name" type="text" placeholder="Enter your last name"></p>
 
     <h1></h1>
 
   </body>
 
   <script>
-  const name = document.querySelector('input')
+  const firstName = document.querySelector('#firstName')
+  const lastName = document.querySelector('#lastName')
+  const name = document.querySelectorAll('.name')
   const welcomeMessage = document.querySelector('h1')
+
   name.onkeyup = function () {
     // hint: name.value gives you the current text in the input box
-    welcomeMessage.textContent = `Welcome, ${name.value}!`;
+   (firstName.value && lastName.value? welcomeMessage.textContent = `Welcome, ${firstName.value.toUpperCase()} ${lastName.value}!`: welcomeMessage.textContent = ``);
   }
   </script>
 
