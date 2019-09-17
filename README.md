@@ -25,3 +25,7 @@
 * 07_binarySearch
 * 08_welcome
 * 09_oddOrEven
+<<<<<<< HEAD
+=======
+* 10_numberPersistence
+>>>>>>> 93eb3a22d52396f32f1a8301d38232f78df01575
