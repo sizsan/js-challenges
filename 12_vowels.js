@@ -13,8 +13,19 @@ npm test
 */
 
 function vowels(string) {
-    // Your code here
-}
+   return string.match(/[aeiou]/gi)   
+ }
+
+// function vowels(string) {
+//    let letters = string.split("")
+//    console.log(letters)
+//    for (let ind in letters){
+//        if (letters[ind] !== "a" || "e" || "i" || "o" || "u"){
+//         letters.splice(ind, 1)
+//        }
+//    }
+//    return letters
+// }
 
 module.exports = {
     vowels
