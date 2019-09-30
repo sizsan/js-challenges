@@ -1,4 +1,4 @@
-const isPangram = require('./20_pangram').isPangram;
+const isPangram = require('./17_pangram').isPangram;
 
 describe('Pangram Challenge', function () {
   it('The phrase "the quick brown fox jumps over the lazy dog" should return true', function () {
@@ -20,6 +20,6 @@ describe('Pangram Challenge', function () {
     expect(isPangram('1, 2, 3, 4')).toBe(false);
   });
   it('Should return true for any uppercase letters', function () {
-    expect(isPangram('ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe(true);
+    expect(isPangram('ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe(false);
   });
 });

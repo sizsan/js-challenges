@@ -10,7 +10,13 @@ If the given string has any uppercase or numbers, it should return false
 */
 
 function isPangram(string) {
-    // Your code here
+    let alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
+    for (let letter of alphabet ){
+       if (!string.includes(letter)){
+            return false;
+       }
+    }
+    return true;
 }
 
 module.exports = {
