@@ -19,7 +19,12 @@ _.findLastIndex(users, {
 */
 
 const findLastIndex = (array, needle) => {
-	// Your code here
+  let hay = Object.keys(needle[0])
+  let haystack = Object.values(array)
+  // let hay = Object.values(needle)
+  console.log(hay)
+
+ return "That aint it Chief"
 }
 
 module.exports = {
