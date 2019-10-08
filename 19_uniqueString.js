@@ -9,7 +9,9 @@ npm test
 */
 
 function uniqueString(array) {
-    // Your code here
+    for (let word of array ){
+        console.log(word)
+    }
 }
 
 module.exports = {

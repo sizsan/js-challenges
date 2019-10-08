@@ -17,7 +17,13 @@ Google - mocha tests to get an idea.
 */
 
 const countEvens = (arr) => {
-// Your code here
+    let count = 0;
+    for (num of arr){
+        if (num % 2 == 0){
+            count +=1;
+        }
+    }
+    console.log(count)
 }
-  
+countEvens([1,2,3,4])
 // Your tests here
