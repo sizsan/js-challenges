@@ -11,8 +11,8 @@ commonCharacters("Alright alright alright", "") => ""
 */
 
 const commonCharacters = (string1, string2) => {
-    //    Your code here
-
+    let string3 = string1 += string2;
+    console.log(string3) 
 }
 
 module.exports = {
