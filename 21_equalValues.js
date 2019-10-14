@@ -14,9 +14,8 @@ Examples:
 */
 
 const equalValues = (value1, value2) => {
-
-
     // Your code below
+    return object.keys(value1) === object.keys(value2) ? true : false
 }
 
 module.exports = {
