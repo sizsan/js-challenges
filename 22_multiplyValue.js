@@ -18,5 +18,17 @@ If your feeling confident add more tests below.
 */
 
 exports.multiplyValue = (value, times) => {
-    // Your code here
+    let multiVal = 0
+    let mutiStr = ""
+    if (typeof times !== "number"){
+        return null;
+    }
+    if (typeof value === "number"){
+        multiVal = value * times;
+        return multiVal;
+    }else if(typeof value === "string"){
+        multiStr = value.repeat(times)
+        return multiStr;
+    }
+    return null
 }
