@@ -10,5 +10,31 @@
 // Good luck and have fun!
 
 exports.conwaysGameOfLife = function (game) {
-	// Your code goes here
+// Your code goes here
+for (let row in game){
+	for (let cell in row){
+		// findNeighbours(row, cell)
+		console.log(row[cell])
+	}}
 }
+
+function findNeighbours (row ,cell, game){   
+	let neighbours = 0; 
+	if (game[row][cell] == 1){
+		if (game[row][cell +=1] == 1){
+			neighbours += 1
+		}
+		if (row[cell -1] == 1){
+			neighbours += 1
+		}
+		if ()
+	}
+}
+// let game1 = [
+// 	[0, 0, 0, 0, 0],
+// 	[0, 0, 1, 1, 0],
+// 	[0, 1, 1, 0, 0],
+// 	[0, 0, 1, 0, 1],
+// 	[0, 0, 1, 0, 0]
+//   ]
+// conwaysGameOfLife(game1)
