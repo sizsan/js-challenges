@@ -13,5 +13,10 @@
 // # Error checking for text strings or other invalid inputs is not required, only valid integers will be passed into the function.
 
 exports.narcissisticNumber = function (number) {
-	// your code here
-}
+	let numbers = number.toString().split("")
+	let digits = numbers.length 
+	return (numbers.map(x =>  Math.pow(x, digits)).reduce((x, y)=> x+y ) == number) ? true : false; 
+	// console.log(numbers)
+	// console.log(digits)
+	// console.log(numbers.map(x => Math.pow(x, digits))
+	}
