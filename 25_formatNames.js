@@ -29,7 +29,7 @@
 */
 
 function formatNames(names) {
-	// Your code goes here
+	console.log(names.last)
 }
 
 let assert = require("assert")
